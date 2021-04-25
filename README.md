@@ -1,1 +1,1 @@
-# Welcome to Either Or Close Project
+# Welcome to Either Or FullStack Project
