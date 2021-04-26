@@ -4,4 +4,4 @@ from .models import Question, Report
 class QuestionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Question
-        fields = ['firstOption', 'secondOption', 'firstOptionVoteCount', 'secondOptionVoteCount']
+        fields = ['id', 'title', 'firstOption', 'secondOption', 'firstOptionVoteCount', 'secondOptionVoteCount']
